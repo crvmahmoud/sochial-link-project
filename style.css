@@ -1,0 +1,78 @@
+ :root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+@font-face{
+    font-family: 'cairo';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face{
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face{
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face{
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"cairo" ;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--OffBlack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+
+body .card{
+    width: 45%;
+    background-color:var(--DarkGrey) ;
+    padding: 20px;
+    border-radius: 25px;
+}
+body .card .logo img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+body .card .taxt :first-child{
+    color: var(--White);
+    margin: 10px 0;
+}
+body .card .taxt :nth-child(2){
+    color: var(--Green);
+}
+body .card .taxt :nth-child(3){
+    color: var(--White);
+    margin: 25px 0;
+
+}
+body .card .sochiol a{
+    display: block;
+    text-decoration: none;
+    color: var(--White);
+    margin: 25px 0;
+    background-color: var(--Grey);
+    padding: 15px;
+    border-radius: 20px;
+}
+body .card .sochiol :hover{
+    background-color: var(--Green);
+}
+
+
+
